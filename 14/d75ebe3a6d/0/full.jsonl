@@ -1,0 +1,90 @@
+{
+  "sessionId": "a324af07-dd6c-42fb-8c30-663b263efaea",
+  "projectHash": "8b4f91c53c99173b79614e87a4358ae6859b85fd475d3abf32fc97ebc0aad63c",
+  "startTime": "2026-03-17T22:28:05.983Z",
+  "lastUpdated": "2026-03-17T22:28:18.654Z",
+  "messages": [
+    {
+      "id": "c242b6c5-a478-47de-86e8-d015a4380954",
+      "timestamp": "2026-03-17T22:28:05.983Z",
+      "type": "user",
+      "content": [
+        {
+          "text": "echo \"test\""
+        }
+      ]
+    },
+    {
+      "id": "3b930df9-5d99-4a7b-ac5f-7e628ab705af",
+      "timestamp": "2026-03-17T22:28:08.127Z",
+      "type": "gemini",
+      "content": "I will execute the `echo` command to print \"test\" to the terminal.",
+      "thoughts": [
+        {
+          "subject": "Defining the Action",
+          "description": "I've decided on the `run_shell_command` tool. Before running it, I'll provide a concise explanation of what the `echo \"test\"` command accomplishes. I'm focusing on clarity and ensuring the user understands the simple operation.",
+          "timestamp": "2026-03-17T22:28:08.050Z"
+        }
+      ],
+      "tokens": {
+        "input": 6341,
+        "output": 41,
+        "cached": 0,
+        "thoughts": 40,
+        "tool": 0,
+        "total": 6422
+      },
+      "model": "gemini-3-flash-preview",
+      "toolCalls": [
+        {
+          "id": "run_shell_command_1773786488097_0",
+          "name": "run_shell_command",
+          "args": {
+            "command": "echo \"test\"",
+            "description": "Print \"test\" to the terminal."
+          },
+          "result": [
+            {
+              "functionResponse": {
+                "id": "run_shell_command_1773786488097_0",
+                "name": "run_shell_command",
+                "response": {
+                  "output": "Output: test\nProcess Group PGID: 58096"
+                }
+              }
+            }
+          ],
+          "status": "success",
+          "timestamp": "2026-03-17T22:28:09.962Z",
+          "resultDisplay": "test",
+          "displayName": "Shell",
+          "description": "This tool executes a given shell command as `bash -c <command>`. To run a command in the background, set the `is_background` parameter to true. Do NOT use `&` to background commands. Command is executed as a subprocess that leads its own process group. Command process group can be terminated as `kill -- -PGID` or signaled as `kill -s SIGNAL -- -PGID`.\n\n      Efficiency Guidelines:\n      - Quiet Flags: Always prefer silent or quiet flags (e.g., `npm install --silent`, `git --no-pager`) to reduce output volume while still capturing necessary information.\n      - Pagination: Always disable terminal pagination to ensure commands terminate (e.g., use `git --no-pager`, `systemctl --no-pager`, or set `PAGER=cat`).\n\n      The following information is returned:\n\n      Output: Combined stdout/stderr. Can be `(empty)` or partial on error and for any unwaited background processes.\n      Exit Code: Only included if non-zero (command failed).\n      Error: Only included if a process-level error occurred (e.g., spawn failure).\n      Signal: Only included if process was terminated by a signal.\n      Background PIDs: Only included if background processes were started.\n      Process Group PGID: Only included if available.",
+          "renderOutputAsMarkdown": false
+        }
+      ]
+    },
+    {
+      "id": "5c751cde-81a0-4710-a17f-dcb30f12c696",
+      "timestamp": "2026-03-17T22:28:18.654Z",
+      "type": "gemini",
+      "content": "test",
+      "thoughts": [
+        {
+          "subject": "Waiting for Further Input",
+          "description": "Okay, so I executed the command `echo \"test\"`, and the output was predictably \" test\". Now I'm essentially in a holding pattern, anticipating the next instruction. I'm ready to receive and process whatever comes next.",
+          "timestamp": "2026-03-17T22:28:18.593Z"
+        }
+      ],
+      "tokens": {
+        "input": 6399,
+        "output": 1,
+        "cached": 5705,
+        "thoughts": 36,
+        "tool": 0,
+        "total": 6436
+      },
+      "model": "gemini-3-flash-preview"
+    }
+  ],
+  "kind": "main"
+}
