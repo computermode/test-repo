@@ -1,2 +1,2 @@
 # test-repo
-A test repo for indexing
+Test repo for various gh integrations
