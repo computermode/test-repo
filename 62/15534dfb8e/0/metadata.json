@@ -1,0 +1,37 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "6215534dfb8e",
+  "session_id": "ffce91fa-c3e7-4a13-b08d-c8456ad9f11d",
+  "strategy": "manual-commit",
+  "created_at": "2026-03-18T20:53:53.858846Z",
+  "branch": "test-gemini",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".claude/settings.json",
+    ".claude/settings.local.json",
+    ".gemini/settings.json"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "8a93d8b0448e",
+  "token_usage": {
+    "input_tokens": 4,
+    "cache_creation_tokens": 11245,
+    "cache_read_tokens": 29929,
+    "output_tokens": 81,
+    "api_call_count": 2
+  },
+  "session_metrics": {
+    "duration_ms": 8904,
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-03-18T20:53:53.853549Z",
+    "agent_lines": 0,
+    "human_added": 9,
+    "human_modified": 225,
+    "human_removed": 0,
+    "total_committed": 9,
+    "agent_percentage": 0
+  }
+}
