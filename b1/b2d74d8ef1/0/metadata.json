@@ -1,0 +1,35 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "b1b2d74d8ef1",
+  "session_id": "992853e5-a958-4070-bc5c-19fc451dfc2c",
+  "strategy": "manual-commit",
+  "created_at": "2026-03-19T19:30:25.304235Z",
+  "branch": "test-droid",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".claude/settings.json",
+    ".claude/settings.local.json",
+    ".gemini/settings.json"
+  ],
+  "agent": "Factory AI Droid",
+  "turn_id": "f8916c7ba127",
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  },
+  "session_metrics": {
+    "duration_ms": 258
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-03-19T19:30:25.302952Z",
+    "agent_lines": 0,
+    "human_added": 9,
+    "human_modified": 225,
+    "human_removed": 0,
+    "total_committed": 9,
+    "agent_percentage": 0
+  }
+}
