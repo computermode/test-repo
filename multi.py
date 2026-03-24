@@ -3,7 +3,7 @@ def main():
   printTest()
 
 def printHelloWorld():
-  print("Hello World!")
+  print("Hello World, it's weird this file doesn't multiply!")
 
 def printTest():
   print("Ok")
