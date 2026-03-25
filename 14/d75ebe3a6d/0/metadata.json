@@ -10,7 +10,7 @@
     ".claude/settings.json",
     ".gemini/settings.json"
   ],
-  "agent": "Gemini CLI",
+  "agent": "Opencode",
   "turn_id": "babc2a0a5dd0",
   "token_usage": {
     "input_tokens": 12740,
