@@ -10,7 +10,7 @@
   "sessions": [
     {
       "metadata": "/58/1d7b2848de/0/metadata.json",
-      "transcript": "/58/1d7b2848de/0/full.jsonl",
+      "transcript": "/58/1d7b2848de/0/transcript.jsonl",
       "context": "/58/1d7b2848de/0/context.md",
       "content_hash": "/58/1d7b2848de/0/content_hash.txt",
       "prompt": "/58/1d7b2848de/0/prompt.txt"
