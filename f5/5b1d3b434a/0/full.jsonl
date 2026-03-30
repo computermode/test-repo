@@ -1,0 +1,5 @@
+{"role":"user","message":{"content":[{"type":"text","text":"<user_query>\ncreate a markdown file stating this is for testing cursor\n</user_query>"}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"The user wants me to create a markdown file stating this is for testing cursor. Let me create it in the workspace directory."},{"type":"tool_use","name":"Write","input":{"path":"/Users/ninawork/entire/test-repos/test-repo/cursor-attach/testing-cursor.md","contents":"# Testing Cursor\n\nThis file is for testing Cursor.\n"}}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"Created `testing-cursor.md` in the `cursor-attach` directory."}]}}
+{"role":"user","message":{"content":[{"type":"text","text":"<user_query>\nhow do I quit this cli\n</user_query>"}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"You can quit by pressing **Ctrl+C** or typing **exit**."}]}}
