@@ -1,0 +1,97 @@
+{
+  "kind": "main",
+  "lastUpdated": "2026-03-30T18:40:10.710Z",
+  "messages": [
+    {
+      "id": "4f0ac18f-820d-42be-8c2e-783db70ff0ea",
+      "timestamp": "2026-03-30T18:39:50.375Z",
+      "type": "info",
+      "content": "Update successful! The new version will be used on your next run."
+    },
+    {
+      "content": "make a markdown file in this dir that states it's for testing gemini",
+      "id": "a7063dbc-d894-45a7-b8dc-f891f648941b",
+      "timestamp": "2026-03-30T18:39:51.264Z",
+      "type": "user"
+    },
+    {
+      "id": "a021b876-a4cc-44a8-949a-df5fe9eb4d88",
+      "timestamp": "2026-03-30T18:39:54.050Z",
+      "type": "gemini",
+      "content": "I will create a `TESTING.md` file in the current directory to document that this is for testing Gemini.",
+      "thoughts": [],
+      "tokens": {
+        "input": 6497,
+        "output": 58,
+        "cached": 0,
+        "thoughts": 0,
+        "tool": 0,
+        "total": 6555
+      },
+      "model": "gemini-3-flash-preview",
+      "toolCalls": [
+        {
+          "id": "write_file_1774895994049_0",
+          "name": "write_file",
+          "args": {
+            "content": "# Testing Gemini\n\nThis directory is used for testing the capabilities and performance of Gemini CLI.",
+            "file_path": "TESTING.md"
+          },
+          "result": [
+            {
+              "functionResponse": {
+                "id": "write_file_1774895994049_0",
+                "name": "write_file",
+                "response": {
+                  "output": "Successfully created and wrote to new file: /Users/ninawork/entire/test-repos/test-repo/gemini-attach/TESTING.md. Here is the updated code:\n# Testing Gemini\n\nThis directory is used for testing the capabilities and performance of Gemini CLI."
+                }
+              }
+            }
+          ],
+          "status": "success",
+          "timestamp": "2026-03-30T18:39:59.480Z",
+          "resultDisplay": {
+            "fileDiff": "Index: TESTING.md\n===================================================================\n--- TESTING.md\tOriginal\n+++ TESTING.md\tWritten\n@@ -0,0 +1,3 @@\n+# Testing Gemini\n+\n+This directory is used for testing the capabilities and performance of Gemini CLI.\n\\ No newline at end of file\n",
+            "fileName": "TESTING.md",
+            "filePath": "/Users/ninawork/entire/test-repos/test-repo/gemini-attach/TESTING.md",
+            "originalContent": "",
+            "newContent": "# Testing Gemini\n\nThis directory is used for testing the capabilities and performance of Gemini CLI.",
+            "diffStat": {
+              "model_added_lines": 3,
+              "model_removed_lines": 0,
+              "model_added_chars": 98,
+              "model_removed_chars": 0,
+              "user_added_lines": 0,
+              "user_removed_lines": 0,
+              "user_added_chars": 0,
+              "user_removed_chars": 0
+            },
+            "isNewFile": true
+          },
+          "description": "Writing to TESTING.md",
+          "displayName": "WriteFile",
+          "renderOutputAsMarkdown": true
+        }
+      ]
+    },
+    {
+      "id": "6cff1c87-8bb7-4972-aa36-0381d4709fb2",
+      "timestamp": "2026-03-30T18:40:10.710Z",
+      "type": "gemini",
+      "content": "Created `TESTING.md`.",
+      "thoughts": [],
+      "tokens": {
+        "input": 8599,
+        "output": 7,
+        "cached": 0,
+        "thoughts": 0,
+        "tool": 0,
+        "total": 8606
+      },
+      "model": "gemini-3-flash-preview"
+    }
+  ],
+  "projectHash": "c0f4b0739a6f116ce6608010f1bd0cb124376903bd3dffc915478109f989ed72",
+  "sessionId": "1b9023d0-518b-48d4-b9eb-9d3eb08534cb",
+  "startTime": "2026-03-30T18:39:50.375Z"
+}

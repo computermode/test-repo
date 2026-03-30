@@ -1,0 +1,1 @@
+make a markdown file in this dir that states it's for testing gemini
