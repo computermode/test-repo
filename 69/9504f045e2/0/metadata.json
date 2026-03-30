@@ -1,0 +1,17 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "699504f045e2",
+  "session_id": "31b0eadb-c44b-41ef-b46b-16c3f8e1fdd6",
+  "strategy": "manual-commit",
+  "created_at": "2026-03-30T18:56:50.163114Z",
+  "checkpoints_count": 0,
+  "files_touched": null,
+  "agent": "Copilot CLI",
+  "token_usage": {
+    "input_tokens": 40503,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 31836,
+    "output_tokens": 187,
+    "api_call_count": 2
+  }
+}
