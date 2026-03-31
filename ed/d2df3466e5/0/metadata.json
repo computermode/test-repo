@@ -9,7 +9,7 @@
   "files_touched": [
     "README.md"
   ],
-  "agent": "Claude Code",
+  "agent": "Gemini CLI",
   "turn_id": "d3a1a1163c28",
   "token_usage": {
     "input_tokens": 6,
