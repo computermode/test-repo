@@ -1,0 +1,1 @@
+Make a new directory called test-compact-transcript and add a markdown stating it's for testing v2 checkpoints
