@@ -1,0 +1,1 @@
+Ok now add a new line that says "this is the second step, transcript should start from here in the UI"
