@@ -1,0 +1,1 @@
+Add a new line to "test-compact-transcript/steps.md" that says "this is step two now"
