@@ -1,0 +1,5 @@
+make a basic home page with a text box the same way as the screenshot.
+
+[Image #1]
+
+for now just have it be a text box like this - it doesn't need a submit button or anything. this is just to test that images work correctly for entire so do the minimum work needed
