@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    background: #fff;
+    width: 600px;
+    padding: 80px 60px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+  .field label {
+    display: block;
+    font-size: 13px;
+    color: #4a6484;
+    margin-bottom: 8px;
+  }
+  .input-wrap {
+    position: relative;
+    background: #f4f4fa;
+    border-bottom: 2px solid #3d5a80;
+  }
+  .input-wrap input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    padding: 12px 40px 12px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
+    outline: none;
+  }
+  .clear {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    color: #525252;
+    pointer-events: none;
+  }
+  .helper {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #525252;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="field">
+      <label for="demo">Label</label>
+      <div class="input-wrap">
+        <input id="demo" type="text" value="us">
+        <svg class="clear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="5" x2="19" y2="19"/>
+          <line x1="19" y1="5" x2="5" y2="19"/>
+        </svg>
+      </div>
+      <div class="helper">Do not use placeholder. Use Helper Texts!</div>
+    </div>
+  </div>
+</body>
+</html>
