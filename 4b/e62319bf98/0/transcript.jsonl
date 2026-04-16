@@ -1,0 +1,2 @@
+{"v":1,"agent":"Claude Code","cli_version":"dev","type":"user","ts":"2026-03-19T20:49:34.383Z","content":[{"id":"604d9e9d-cda9-46cf-b800-3704d69b2ad3","text":"echo \"tesT\""}]}
+{"v":1,"agent":"Claude Code","cli_version":"dev","type":"assistant","ts":"2026-03-19T20:49:37.203Z","id":"msg_01CMfHb4RRHCXKg8LXjE3fGg","input_tokens":3,"output_tokens":10,"content":[{"text":"\n\n```\ntesT\n```","type":"text"}]}
