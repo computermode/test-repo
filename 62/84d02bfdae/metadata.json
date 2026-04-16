@@ -1,0 +1,25 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "6284d02bfdae",
+  "strategy": "manual-commit",
+  "branch": "test-branch",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "divide.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/62/84d02bfdae/0/metadata.json",
+      "transcript": "/62/84d02bfdae/0/transcript.jsonl",
+      "content_hash": "/62/84d02bfdae/0/transcript_hash.txt",
+      "prompt": "/62/84d02bfdae/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 4,
+    "cache_creation_tokens": 11302,
+    "cache_read_tokens": 29743,
+    "output_tokens": 352,
+    "api_call_count": 2
+  }
+}
