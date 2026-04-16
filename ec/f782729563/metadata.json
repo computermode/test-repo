@@ -6,7 +6,8 @@
   "checkpoints_count": 1,
   "files_touched": [
     ".claude/settings.json",
-    ".gemini/settings.json"
+    ".gemini/settings.json",
+    "README.md"
   ],
   "sessions": [
     {
@@ -14,13 +15,19 @@
       "transcript": "/ec/f782729563/0/transcript.jsonl",
       "content_hash": "/ec/f782729563/0/transcript_hash.txt",
       "prompt": "/ec/f782729563/0/prompt.txt"
+    },
+    {
+      "metadata": "/ec/f782729563/1/metadata.json",
+      "transcript": "/ec/f782729563/1/transcript.jsonl",
+      "content_hash": "/ec/f782729563/1/transcript_hash.txt",
+      "prompt": "/ec/f782729563/1/prompt.txt"
     }
   ],
   "token_usage": {
-    "input_tokens": 12747,
-    "cache_creation_tokens": 0,
-    "cache_read_tokens": 5702,
-    "output_tokens": 65,
-    "api_call_count": 2
+    "input_tokens": 12757,
+    "cache_creation_tokens": 11479,
+    "cache_read_tokens": 77111,
+    "output_tokens": 430,
+    "api_call_count": 6
   }
 }
