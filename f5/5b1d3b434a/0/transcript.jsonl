@@ -1,0 +1,4 @@
+{"v":1,"agent":"Cursor","cli_version":"dev","type":"user","content":[{"text":"create a markdown file stating this is for testing cursor"}]}
+{"v":1,"agent":"Cursor","cli_version":"dev","type":"assistant","content":[{"text":"The user wants me to create a markdown file stating this is for testing cursor. Let me create it in the workspace directory.","type":"text"},{"input":{"path":"/Users/ninawork/entire/test-repos/test-repo/cursor-attach/testing-cursor.md","contents":"# Testing Cursor\n\nThis file is for testing Cursor.\n"},"name":"Write","type":"tool_use"},{"text":"Created `testing-cursor.md` in the `cursor-attach` directory.","type":"text"}]}
+{"v":1,"agent":"Cursor","cli_version":"dev","type":"user","content":[{"text":"how do I quit this cli"}]}
+{"v":1,"agent":"Cursor","cli_version":"dev","type":"assistant","content":[{"text":"You can quit by pressing **Ctrl+C** or typing **exit**.","type":"text"}]}
