@@ -1,0 +1,18 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "a0f8612fcb64",
+  "session_id": "a31fbbb0-0922-4b2b-be85-9e9f0283a4d8",
+  "strategy": "manual-commit",
+  "created_at": "2026-04-16T21:56:41.011461Z",
+  "checkpoints_count": 0,
+  "files_touched": null,
+  "agent": "Factory AI Droid",
+  "model": "",
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  }
+}
