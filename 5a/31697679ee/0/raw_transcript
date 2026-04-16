@@ -1,0 +1,91 @@
+{
+  "kind": "main",
+  "lastUpdated": "2026-03-18T20:52:04.329Z",
+  "messages": [
+    {
+      "content": "echo \"test wednesday\"",
+      "id": "787268b2-4da3-4972-a97a-1d01a8d936ba",
+      "timestamp": "2026-03-18T20:43:43.177Z",
+      "type": "user"
+    },
+    {
+      "id": "74eb2a25-5395-415f-afcd-aeaa19c4b058",
+      "timestamp": "2026-03-18T20:43:44.794Z",
+      "type": "gemini",
+      "content": "I will create a file named `test.txt` with the content \"test wednesday\".",
+      "thoughts": [],
+      "tokens": {
+        "input": 6343,
+        "output": 38,
+        "cached": 0,
+        "thoughts": 0,
+        "tool": 0,
+        "total": 6381
+      },
+      "model": "gemini-3-flash-preview",
+      "toolCalls": [
+        {
+          "id": "write_file_1773866624790_0",
+          "name": "write_file",
+          "args": {
+            "file_path": "test.txt",
+            "content": "test wednesday\n"
+          },
+          "result": [
+            {
+              "functionResponse": {
+                "id": "write_file_1773866624790_0",
+                "name": "write_file",
+                "response": {
+                  "output": "Successfully created and wrote to new file: /Users/ninawork/entire/test-repos/test-repo/test-dir/test.txt. Here is the updated code:\ntest wednesday\n"
+                }
+              }
+            }
+          ],
+          "status": "success",
+          "timestamp": "2026-03-18T20:52:02.913Z",
+          "resultDisplay": {
+            "fileDiff": "Index: test.txt\n===================================================================\n--- test.txt\tOriginal\n+++ test.txt\tWritten\n@@ -0,0 +1,1 @@\n+test wednesday\n",
+            "fileName": "test.txt",
+            "filePath": "/Users/ninawork/entire/test-repos/test-repo/test-dir/test.txt",
+            "originalContent": "",
+            "newContent": "test wednesday\n",
+            "diffStat": {
+              "model_added_lines": 1,
+              "model_removed_lines": 0,
+              "model_added_chars": 14,
+              "model_removed_chars": 0,
+              "user_added_lines": 0,
+              "user_removed_lines": 0,
+              "user_added_chars": 0,
+              "user_removed_chars": 0
+            },
+            "isNewFile": true
+          },
+          "displayName": "WriteFile",
+          "description": "Writes content to a specified file in the local filesystem.\n\n      The user has the ability to modify `content`. If modified, this will be stated in the response.",
+          "renderOutputAsMarkdown": true
+        }
+      ]
+    },
+    {
+      "id": "36b1163c-6cc0-4df7-af5e-17b61563ccd2",
+      "timestamp": "2026-03-18T20:52:04.329Z",
+      "type": "gemini",
+      "content": "test wednesday",
+      "thoughts": [],
+      "tokens": {
+        "input": 6425,
+        "output": 3,
+        "cached": 5737,
+        "thoughts": 0,
+        "tool": 0,
+        "total": 6428
+      },
+      "model": "gemini-3-flash-preview"
+    }
+  ],
+  "projectHash": "8b4f91c53c99173b79614e87a4358ae6859b85fd475d3abf32fc97ebc0aad63c",
+  "sessionId": "cf708092-93ca-428c-abc6-36a9550b1c59",
+  "startTime": "2026-03-18T20:43:43.177Z"
+}
