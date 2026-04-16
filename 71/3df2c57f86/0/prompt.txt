@@ -1,0 +1,1 @@
+Add a new text file to the compact transcript folder. Name it "steps.md"
