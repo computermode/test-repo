@@ -1,0 +1,27 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "6215534dfb8e",
+  "strategy": "manual-commit",
+  "branch": "test-gemini",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".claude/settings.json",
+    ".claude/settings.local.json",
+    ".gemini/settings.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/62/15534dfb8e/0/metadata.json",
+      "transcript": "/62/15534dfb8e/0/transcript.jsonl",
+      "content_hash": "/62/15534dfb8e/0/transcript_hash.txt",
+      "prompt": "/62/15534dfb8e/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 4,
+    "cache_creation_tokens": 11245,
+    "cache_read_tokens": 29929,
+    "output_tokens": 81,
+    "api_call_count": 2
+  }
+}
