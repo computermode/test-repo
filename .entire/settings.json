@@ -2,6 +2,6 @@
   "enabled": true,
   "telemetry": true,
   "strategy_options": {
-    "checkpoints_v2_only": true
+    "checkpoints_version": "2"
   }
 }
