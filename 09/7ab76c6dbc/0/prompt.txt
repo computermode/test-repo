@@ -1,0 +1,1 @@
+update the readme's final line to say "this was pushed with checkpoints v1"
