@@ -1,0 +1,1 @@
+Update the last line of the readme to say "actually that was an older cli version, this time it's v2"
