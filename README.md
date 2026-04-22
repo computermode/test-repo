@@ -1,2 +1,2 @@
 Test repo for various gh integrations
-this was made with v2
+actually that was an older cli version, this time it's v2
