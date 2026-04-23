@@ -3,7 +3,7 @@
   "checkpoint_id": "1e6e8f2433f3",
   "session_id": "0bdf2f0a-73de-42c1-b746-4c26c9ac77a7",
   "strategy": "manual-commit",
-  "created_at": "2026-04-10T17:04:20.245766Z",
+  "created_at": "2026-04-23T22:00:26.625447Z",
   "branch": "test-compact-transcript",
   "checkpoints_count": 1,
   "files_touched": [
@@ -33,22 +33,5 @@
     "total_lines_changed": 1,
     "agent_percentage": 100,
     "metric_version": 2
-  },
-  "prompt_attributions": [
-    {
-      "checkpoint_number": 1,
-      "user_lines_added": 574,
-      "user_lines_removed": 0,
-      "agent_lines_added": 0,
-      "agent_lines_removed": 0,
-      "user_added_per_file": {
-        ".claude/settings.json": 84,
-        ".cursor/hooks.json": 40,
-        ".factory/settings.json": 90,
-        ".gemini/settings.json": 141,
-        ".github/hooks/entire.json": 61,
-        ".opencode/plugins/entire.ts": 158
-      }
-    }
-  ]
+  }
 }
