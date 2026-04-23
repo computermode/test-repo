@@ -1,3 +1,1 @@
-# hello.txt
-
-This was written by Claude with checkpoints v2, for example.
+this was built with claude
