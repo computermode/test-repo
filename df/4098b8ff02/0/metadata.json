@@ -3,7 +3,7 @@
   "checkpoint_id": "df4098b8ff02",
   "session_id": "7bfa825d-a369-4307-9649-be8fd41c9afa",
   "strategy": "manual-commit",
-  "created_at": "2026-04-10T17:54:18.907132Z",
+  "created_at": "2026-04-23T22:00:26.594336Z",
   "branch": "test-compact-transcript",
   "checkpoints_count": 1,
   "files_touched": [
@@ -12,8 +12,7 @@
   "agent": "Claude Code",
   "model": "claude-opus-4-6[1m]",
   "turn_id": "8f09a23db4c6",
-  "checkpoint_transcript_start": 19,
-  "transcript_lines_at_start": 19,
+  "checkpoint_transcript_start": 4,
   "token_usage": {
     "input_tokens": 4,
     "cache_creation_tokens": 7726,
@@ -35,22 +34,5 @@
     "total_lines_changed": 1,
     "agent_percentage": 100,
     "metric_version": 2
-  },
-  "prompt_attributions": [
-    {
-      "checkpoint_number": 1,
-      "user_lines_added": 574,
-      "user_lines_removed": 0,
-      "agent_lines_added": 0,
-      "agent_lines_removed": 0,
-      "user_added_per_file": {
-        ".claude/settings.json": 84,
-        ".cursor/hooks.json": 40,
-        ".factory/settings.json": 90,
-        ".gemini/settings.json": 141,
-        ".github/hooks/entire.json": 61,
-        ".opencode/plugins/entire.ts": 158
-      }
-    }
-  ]
+  }
 }
