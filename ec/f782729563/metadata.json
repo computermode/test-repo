@@ -1,5 +1,5 @@
 {
-  "cli_version": "0.4.9",
+  "cli_version": "dev",
   "checkpoint_id": "ecf782729563",
   "strategy": "manual-commit",
   "branch": "test-gemini",
@@ -13,14 +13,12 @@
     {
       "metadata": "/ec/f782729563/0/metadata.json",
       "transcript": "/ec/f782729563/0/full.jsonl",
-      "context": "",
       "content_hash": "/ec/f782729563/0/content_hash.txt",
       "prompt": "/ec/f782729563/0/prompt.txt"
     },
     {
       "metadata": "/ec/f782729563/1/metadata.json",
       "transcript": "/ec/f782729563/1/full.jsonl",
-      "context": "/ec/f782729563/1/context.md",
       "content_hash": "/ec/f782729563/1/content_hash.txt",
       "prompt": "/ec/f782729563/1/prompt.txt"
     }
