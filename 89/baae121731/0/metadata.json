@@ -1,0 +1,59 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "89baae121731",
+  "session_id": "c0474c47-e84a-45e4-a3d1-6f6b1b3ddd3d",
+  "strategy": "manual-commit",
+  "created_at": "2026-04-23T22:00:15.119463Z",
+  "branch": "v2-testing",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "hello.txt"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-7[1m]",
+  "turn_id": "9f6c589bf7d0",
+  "token_usage": {
+    "input_tokens": 9,
+    "cache_creation_tokens": 11999,
+    "cache_read_tokens": 111348,
+    "output_tokens": 400,
+    "api_call_count": 4
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-04-23T22:00:15.111368Z",
+    "agent_lines": 1,
+    "agent_removed": 3,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 1,
+    "total_lines_changed": 4,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 579,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.json": 84,
+        ".cursor/hooks.json": 40,
+        ".factory/settings.json": 90,
+        ".gemini/settings.json": 141,
+        ".github/hooks/entire.json": 61,
+        ".opencode/plugins/entire.ts": 158,
+        ".roger-roger/hooks/session-end.json": 1,
+        ".roger-roger/hooks/session-start.json": 1,
+        ".roger-roger/hooks/stop.json": 1,
+        ".roger-roger/hooks/user-prompt-submit.json": 1,
+        "hello4.txt": 1
+      }
+    }
+  ]
+}
