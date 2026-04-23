@@ -1,0 +1,1 @@
+Add some contents to hello.txt. This was written by claude with checkpoints v2, for example
