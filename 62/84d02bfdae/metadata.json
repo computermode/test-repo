@@ -1,5 +1,5 @@
 {
-  "cli_version": "0.4.9",
+  "cli_version": "dev",
   "checkpoint_id": "6284d02bfdae",
   "strategy": "manual-commit",
   "branch": "test-branch",
@@ -11,7 +11,6 @@
     {
       "metadata": "/62/84d02bfdae/0/metadata.json",
       "transcript": "/62/84d02bfdae/0/full.jsonl",
-      "context": "/62/84d02bfdae/0/context.md",
       "content_hash": "/62/84d02bfdae/0/content_hash.txt",
       "prompt": "/62/84d02bfdae/0/prompt.txt"
     }
