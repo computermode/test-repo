@@ -1,0 +1,4 @@
+{"v":1,"agent":"kiro","cli_version":"unknown","type":"user","content":[{"text":"add \"hello again\" as a comment"}]}
+{"v":1,"agent":"kiro","cli_version":"unknown","type":"assistant","content":[{"type":"text","text":"Added \"hello again\" as a comment to the kiro README."}]}
+{"v":1,"agent":"kiro","cli_version":"unknown","type":"user","content":[{"text":"Add one more comment"}]}
+{"v":1,"agent":"kiro","cli_version":"unknown","type":"assistant","content":[{"type":"text","text":"On it."}]}

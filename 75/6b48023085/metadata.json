@@ -3,7 +3,7 @@
   "checkpoint_id": "756b48023085",
   "strategy": "manual-commit",
   "branch": "v2-testing",
-  "checkpoints_count": 1,
+  "checkpoints_count": 2,
   "files_touched": [
     "kiro/README.md"
   ],
@@ -13,6 +13,12 @@
       "transcript": "/75/6b48023085/0/transcript.jsonl",
       "content_hash": "/75/6b48023085/0/transcript_hash.txt",
       "prompt": "/75/6b48023085/0/prompt.txt"
+    },
+    {
+      "metadata": "/75/6b48023085/1/metadata.json",
+      "transcript": "/75/6b48023085/1/transcript.jsonl",
+      "content_hash": "/75/6b48023085/1/transcript_hash.txt",
+      "prompt": "/75/6b48023085/1/prompt.txt"
     }
   ]
 }
