@@ -1,0 +1,1 @@
+{"conversation_id":"","history":[{"user":{"content":{"Prompt":{"prompt":"add \"hello again\" as a comment"}}},"assistant":{"Response":{"message_id":"","content":"Added \"hello again\" as a comment to the kiro README."}}},{"user":{"content":{"Prompt":{"prompt":"Add one more comment"}}},"assistant":{"Response":{"message_id":"","content":"On it."}}}]}
