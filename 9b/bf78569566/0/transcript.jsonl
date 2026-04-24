@@ -1,0 +1,7 @@
+{"v":1,"agent":"kiro","cli_version":"dev","type":"user","content":[{"text":"Make a folder called kiro and a readme inside it that says \"This is for testing kiro\""}]}
+{"v":1,"agent":"kiro","cli_version":"dev","type":"assistant","content":[{"type":"tool_use","name":"Write","input":{"path":"kiro/README.md"}}]}
+{"v":1,"agent":"kiro","cli_version":"dev","type":"assistant","content":[{"type":"text","text":"Done — created `kiro/README.md` with the text \"This is for testing kiro\"."}]}
+{"v":1,"agent":"kiro","cli_version":"dev","type":"user","content":[{"text":"add a comment to the kiro readme in this repo"}]}
+{"v":1,"agent":"kiro","cli_version":"dev","type":"assistant","content":[{"type":"text","text":"Added a comment to the kiro README."}]}
+{"v":1,"agent":"kiro","cli_version":"dev","type":"user","content":[{"text":"Update that comment to say hi"}]}
+{"v":1,"agent":"kiro","cli_version":"dev","type":"assistant","content":[{"type":"text","text":"Updated the comment to say \"hi\"."}]}
