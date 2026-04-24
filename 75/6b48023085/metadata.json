@@ -1,0 +1,18 @@
+{
+  "cli_version": "0.5.6",
+  "checkpoint_id": "756b48023085",
+  "strategy": "manual-commit",
+  "branch": "v2-testing",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "kiro/README.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/75/6b48023085/0/metadata.json",
+      "transcript": "/75/6b48023085/0/transcript.jsonl",
+      "content_hash": "/75/6b48023085/0/transcript_hash.txt",
+      "prompt": "/75/6b48023085/0/prompt.txt"
+    }
+  ]
+}
