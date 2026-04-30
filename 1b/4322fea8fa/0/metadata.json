@@ -1,0 +1,66 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "1b4322fea8fa",
+  "session_id": "8b8d0b75-7d8d-41ee-a7b1-10e75222e4ec",
+  "strategy": "manual-commit",
+  "created_at": "2026-04-28T19:10:06.250722Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-7[1m]",
+  "turn_id": "6c04007c0020",
+  "token_usage": {
+    "input_tokens": 9,
+    "cache_creation_tokens": 12369,
+    "cache_read_tokens": 111629,
+    "output_tokens": 416,
+    "api_call_count": 4
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-04-28T19:10:06.24646Z",
+    "agent_lines": 1,
+    "agent_removed": 1,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 1,
+    "total_lines_changed": 2,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 751,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.json": 84,
+        ".cursor/hooks.json": 40,
+        ".factory/settings.json": 90,
+        ".gemini/settings.json": 141,
+        ".github/hooks/entire.json": 61,
+        ".kiro/agents/entire.json": 44,
+        ".kiro/hooks/entire-post-tool-use.kiro.hook": 13,
+        ".kiro/hooks/entire-pre-tool-use.kiro.hook": 13,
+        ".kiro/hooks/entire-prompt-submit.kiro.hook": 13,
+        ".kiro/hooks/entire-stop.kiro.hook": 13,
+        ".opencode/plugins/entire.ts": 158,
+        ".pi/extensions/entire/index.ts": 71,
+        ".roger-roger/hooks/session-end.json": 1,
+        ".roger-roger/hooks/session-start.json": 1,
+        ".roger-roger/hooks/stop.json": 1,
+        ".roger-roger/hooks/user-prompt-submit.json": 1,
+        ".vscode/settings.json": 5,
+        "hello4.txt": 1
+      }
+    }
+  ]
+}
