@@ -1,5 +1,7 @@
 {
   "enabled": true,
-  "external_agents": true,
-  "telemetry": true
+  "telemetry": true,
+  "strategy_options": {
+    "checkpoints_version": 2
+  }
 }
