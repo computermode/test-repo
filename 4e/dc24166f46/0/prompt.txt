@@ -1,0 +1,1 @@
+update the readme to say "I have v2 enabled now"
