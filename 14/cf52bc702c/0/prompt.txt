@@ -1,0 +1,1 @@
+update the readme to say with v-1-1 mirroring enabled
