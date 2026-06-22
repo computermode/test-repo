@@ -1,0 +1,1 @@
+update the .entire/settings.json to remove the strategy_options section
