@@ -1,0 +1,1 @@
+Make changes to the readme that state "this change was generated with claude for desktop"
