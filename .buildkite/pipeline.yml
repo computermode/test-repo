@@ -1,0 +1,12 @@
+# Sample Buildkite pipeline for testing Entire's third-party CI integration.
+#
+# When this repo is enrolled via Settings → Webhooks, ci-webhooks creates a
+# bootstrap pipeline whose single step runs `buildkite-agent pipeline upload`,
+# which reads THIS file and uploads the steps below. A push to a matching branch
+# triggers a build that runs them.
+steps:
+  - label: ":wave: hello world"
+    command: |
+      echo "Hello, world from Entire CI!"
+      echo "commit: ${BUILDKITE_COMMIT:-unknown}"
+      echo "branch: ${BUILDKITE_BRANCH:-unknown}"
